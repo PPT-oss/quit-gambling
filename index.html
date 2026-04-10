@@ -496,7 +496,7 @@
             cleanDays = parseInt(stored);
         } else {
             // 默认展示一个鼓励性数字，假设已经坚持3天
-            cleanDays = 3;
+            cleanDays = 0;
             localStorage.setItem(STORAGE_KEY, cleanDays);
         }
         updateDaysDisplay();
